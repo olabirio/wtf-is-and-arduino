@@ -1,0 +1,75 @@
+Encontro #1
+===========
+
+=Proposta=
+Instalação e familiarização 
+Estrutura básica de um programa 
+Exemplo: Piscar LED
+
+=Planejamento=
+
+* Instalação e familiarização (1h30)
+
+- Apresentação dos alunos (15 min)
+
+Conversa rápida para compreensão dos objetivos e bagagem de cada um
+
+- Iniciar download da IDE do Arduino e dos arquivos do curso (5 min)
+
+Orientar alunos para iniciar o download do software adequado para cada OS
+Mostrar onde baixar e/ou procurar os arquivos do curso
+Isso vai ajudar a acelerar o processo para todo mundo quando for hora de botar a mão na massa!
+
+- Apresentação introdutória do curso (30-45 min)
+
+Quem sou eu?
+Estrutura do curso
+O que dá pra fazer com um Arduino: videos
+Visão geral do hardware
+
+- Instalação da IDE do Arduino (25-40 min)
+
+Acompanhar o processo de instalação dos alunos
+Ajudar os alunos a resolver problemas de driver
+Visão geral da IDE do Arduino
+Visão geral do processo de gravação
+Gravar Blink para mostrar como funciona a gravação (tirar da USB ao final)
+
+(se sobrar tempo, agora é a hora de levantar, alongar, tomar água e ir ao banheiro)
+
+* Estrutura básica de um programa + Exemplo: Piscar LED
+
+- Falar sobre conceito (15 min)
+
+Explicar porque esse é o primeiro programa que todo mundo faz
+Quando que um blink pode ajudar a gente na programação?
+Exemplo do MAM: Sylvio Perlstein e o semáforo de pedestres
+Explicar a importância de termos o conceito claro antes de botar a mão na massa
+
+- Falar sobre o circuito (30 min)
+
+Relembrar o que é tensão e corrente (analogia da mangueira)
+Explicar o que é um LED e como funciona (analogia dos alunos em um museu)
+Explicar que precisamos limitar a corrente
+Relembrar o que é um resistor e como funciona (lei de Ohm)
+Detalhar a questão do sentido da corrente no LED e ordem dos componentes
+
+- Montar circuito (15 min)
+
+Explicar como funciona a protoboard
+Mostrar esquemáticos e como usar
+Acompanhar a montagem de todo mundo
+Pedir para todo mundo ligar o Arduino na USB e ficar feliz com o resultado!
+
+- Passo-a-passo do código (15 min)
+
+Explicar a estrutura básica de um programa: setup e loop
+Não esquecer de mencionar: // /**/ ; {} f(,) keywords
+
+- Modificações (15 min)
+
+Alterar a velocidade do blink
+Alterar o pino que está piscando
+Piscar vários LEDs simultaneamente
+Piscar vários LEDs de forma alternada
+Outros padrões de piscada

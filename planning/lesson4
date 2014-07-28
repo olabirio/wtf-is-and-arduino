@@ -1,0 +1,84 @@
+Encontro #4
+===========
+
+=Proposta=
+Temporização
+Interrupções
+Exemplo: Semáforo
+
+=Planejamento=
+
+- Atualizar arquivos do curso (10 min)
+
+- Conceito: Semáforo (10 min)
+
+Sinal de carros e pedestres
+Tempo de trava para deixar o trânsito fluir
+Sinal vermelho pros dois lados para impedir acidentes
+
+- Montar o circuito (20 min)
+
+LED: 3,4,5,6,7
+Buttons: 2
+
+- Testar circuito: lesson4_1_TestSemaphoreCircuit (10 min)
+
+Programa que acende cada um dos LEDs após apertarmos um botão
+
+- Lógica: Máquina de estados (20 min)
+
+                Carros    Pedestres             Próximo Estado (cond)
+                -------   ---------             ---------------------
+  * Estado 0:   VERDE     VERMELHO              1 botão && (t > t0)
+  * Estado 1:   AMARELO   VERMELHO              2 (t > t1)
+  * Estado 2:   VERMELHO  VERMELHO              3 (t > t2)
+  * Estado 3:   VERMELHO  VERDE                 4 (t > t3)
+  * Estado 4:   VERMELHO  VERMELHO (piscando)   5 (t > t4)
+
+Trabalhar a lógica do problema com a turma
+Apresentar a idéia da máquina de estados
+Mostrar como implementar usando switch/case
+
+- Testar máquina de estados: lesson4_2_TestStateMachine (10 min)
+
+Programa que muda de estado apertando botão
+
+- Funções: nomes curtos para coisas repetitivas (10 min)
+
+Explicar a estrutura de uma função
+Explicar como funciona o escopo de uma variável
+
+- Testar função: lesson4_3_TestOutputFunctions (10 min)
+
+Programa que muda de estado apertando botão, mas acendendo as luzes certas
+
+<BREAK> (1:40-1:50)
+
+- Interrupção externa: interatividade sem tomar todo o tempo (10 min)
+
+Como funciona attachInterrupt
+Variável para saber se botão foi pressionado ou não
+Quando usar e cuidados com interrupção
+
+- Testar interrupção: lesson4_4_TestButtonInterrupt (10 min)
+
+Programa que usa interrupção externa para interrupção (observar interrupção logo após ativação)
+
+- Temporização: como fazer as coisas mudarem com o tempo sem dar delay (20 min)
+
+Como funciona a função millis()
+Função isStateTimeDone()
+
+- Testar temporização: lesson4_5_TestTiming (10 min)
+
+Programa que troca de estado segundo temporização
+
+- Blink: adicionando o alerta ao pedestre (10 min)
+
+Como usar mais uma variável de estado, laços de repetição e temporização para um blink independente
+
+- Testar blink: lesson4_6_TestBlink (10 min)
+
+Programa que reage troca de estado segundo temporização e faz blink na última transição
+
+- Testar tudo: lesson4_7_Semaphore (10 min)

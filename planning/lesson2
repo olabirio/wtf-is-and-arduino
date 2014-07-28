@@ -1,0 +1,72 @@
+Encontro #2
+===========
+
+=Proposta=
+Entrada/saída digital
+Variáveis
+Estruturas condicionais
+Exemplo: Liga/desliga LED com botão
+
+=Planejamento=
+
+* Entrada/saída digital (30 min)
+
+- Circuitos básico de entrada/saída
+
+LED e resistor
+Botões com pullup/pulldown
+
+- pinmode, digitalRead/digitalWrite
+
+INPUT se quiser digitalRead (padrão, requer resistor externo para botão)
+INPUT_PULLUP se quiser digitalRead sem resistor externo (só a partir do Arduino 1.0.5)
+OUTPUT se quiser digitalWrite
+Como usar pinos extras: analog
+
+* Variáveis (30 min)
+
+- Variáveis
+ 
+O que são? Quais tipos existem?
+Como definir e atribuir valor?
+
+- Expressões e operadores
+
+Operadores aritméticos
+Operadores comparação (diferenciar = de ==)
+Operadores booleanos
+
+* Estruturas condicionais (30 min)
+
+- Pra que servem?
+
+Lógica do programa é guiada pela avaliação de variáveis e expressões
+Estruturas condicionais permitem a escolha ou omissão de um trecho de código, mediante condição
+
+- Condições
+
+Baseadas no resultado de expressões
+true: qualquer resultado não-nulo
+false: somente o resultado nulo
+
+- if
+
+testa uma condição e, se for "válida", executa bloco de código
+
+- if/else
+
+testa uma condição e, se for "válida", executa primeiro bloco de código. caso contrário, executa segundo bloco de código
+
+- switch/case
+
+compara uma variável a várias possibilidades, executa **a partir** do bloco que der certo
+comentar o uso do break sem detalhar
+
+* Exemplo: Liga/desliga LED com botão (1h30)
+
+- Arduino Reference (10 min)
+- Circuito: 6 LEDs e 2 botões (20 min)
+- Lesson2_DigitalInputPullup: primeiro código com botão (10 min)
+- Lesson2_BlinkButton: pequena modificação do código (10 min)
+- Lesson2_OnOffButton: usar variável para armazenar estado, debounce (10 min)
+- Desafio: Lesson2_ProgressBar e Lesson2_UpDownBar (mencionar pinos diferentes, 30 min)
